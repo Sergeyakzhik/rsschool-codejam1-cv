@@ -92,7 +92,7 @@ hr {
   border: 0.2rem solid;
   width: 23rem;
   margin: 1rem auto;
-  animation-name: example;
+  animation-name: pulse;
   animation-duration: 6s;
   animation-iteration-count: infinite;
 }
@@ -123,7 +123,7 @@ div[class='container'] {
   }
 }
 
-@keyframes example {
+@keyframes pulse {
     0%   {box-shadow: 0 0 0 #f4be28;}
     50%  {box-shadow: 0 0 2rem #f4be28;}
     100% {box-shadow: 0 0 0 #f4be28;}
