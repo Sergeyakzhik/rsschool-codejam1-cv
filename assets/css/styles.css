@@ -62,7 +62,7 @@ footer {
   margin: 0 1rem;
 }
 
-li > img {
+a > img {
   width: 2.5rem;
 }
 
@@ -84,4 +84,9 @@ hr {
 
 div[class='container'] {
   padding-bottom: 5rem;
+}
+
+@keyframes pulse {
+    0%   {box-shadow: 0 0 0 #f4be28;}
+    100% {box-shadow: 0 0 3rem #f4be28;}
 }
