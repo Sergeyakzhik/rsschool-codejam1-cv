@@ -92,7 +92,9 @@ hr {
   border: 0.2rem solid;
   width: 23rem;
   margin: 1rem auto;
-  box-shadow: 0 0 1rem #f4be28;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
 div[class='container'] {
@@ -119,4 +121,10 @@ div[class='container'] {
   .education-box, .other-education-box {
     padding: 0 4rem;
   }
+}
+
+@keyframes example {
+    0%   {box-shadow: 0 0 0 #f4be28;}
+    50%  {box-shadow: 0 0 2rem #f4be28;}
+    100% {box-shadow: 0 0 0 #f4be28;}
 }
