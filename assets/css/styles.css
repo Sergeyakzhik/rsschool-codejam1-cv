@@ -47,7 +47,16 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+.jumbotron {
   background: #232323;
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron > .container {
+  padding-bottom: 0;
 }
 
 .container {
@@ -60,6 +69,10 @@ footer {
 
 .personal-info-box {
   margin: 0 1rem;
+}
+
+li > a {
+  width: 2.5rem;
 }
 
 a > img {
@@ -86,7 +99,24 @@ div[class='container'] {
   padding-bottom: 5rem;
 }
 
-@keyframes pulse {
-    0%   {box-shadow: 0 0 0 #f4be28;}
-    100% {box-shadow: 0 0 3rem #f4be28;}
+.education-box, .other-education-box {
+  padding: 0 4rem;
+}
+
+@media (min-width: 576px) {
+  .name-box {
+    padding-top: 4rem;
+  }
+
+  .name, .surname {
+    font-size: 5.5rem;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .education-box, .other-education-box {
+    padding: 0 4rem;
+  }
 }
