@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../images/ocean.jpg');
+  font-family: 'Lato';
+}
+
+.author-image {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
+  background-image: url('../images/author.jpg');
+  background-size: contain;
+  margin: 2rem auto;
+  border: 0.5rem solid #f4be28;
+  box-shadow: 0 0 3rem #f4be28;
+}
+
+.name, .surname {
+  font-size: 4rem;
+  letter-spacing: 1.5rem;
+}
+
+.name, h4, h5, h6, p {
+  color: #b5b5b5;
+}
+
+h4 > span {
+  color: #f4be28;
+}
+
+.section-headline {
+  color: #f4be28;
+  font-weight: bold;
+}
+
+.surname {
+  color: #f4be28;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #232323;
+}
+
+.container {
+  max-width: 1024px;
+}
+
+.personal-info {
+  padding: 1.5rem;
+}
+
+.personal-info-box {
+  margin: 0 1rem;
+}
+
+li > img {
+  width: 2.5rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.social-icons-box {
+  margin: 1rem 0;
+}
+
+hr {
+  color: #f4be28;
+  border: 0.2rem solid;
+  width: 23rem;
+  margin: 1rem auto;
+  box-shadow: 0 0 1rem #f4be28;
+}
+
+div[class='container'] {
+  padding-bottom: 5rem;
+}
