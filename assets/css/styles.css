@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../images/ocean.jpg');
+  font-family: 'Lato';
+}
+
+.author-image {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
+  background-image: url('../images/author.jpg');
+  background-size: contain;
+  margin: 2rem auto;
+  border: 0.5rem solid #f4be28;
+  box-shadow: 0 0 3rem #f4be28;
+}
+
+.name, .surname {
+  font-size: 4rem;
+  letter-spacing: 1.5rem;
+}
+
+.name, h4, h5, h6, p {
+  color: #b5b5b5;
+}
+
+h4 > span {
+  color: #f4be28;
+}
+
+.section-headline {
+  color: #f4be28;
+  font-weight: bold;
+}
+
+.surname {
+  color: #f4be28;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.jumbotron {
+  background: #232323;
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron > .container {
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: 1024px;
+}
+
+.personal-info {
+  padding: 1.5rem;
+}
+
+.personal-info-box {
+  margin: 0 1rem;
+}
+
+li > a {
+  width: 2.5rem;
+}
+
+a > img {
+  width: 2.5rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.social-icons-box {
+  margin: 1rem 0;
+}
+
+hr {
+  color: #f4be28;
+  border: 0.2rem solid;
+  width: 23rem;
+  margin: 1rem auto;
+  animation-name: pulse;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div[class='container'] {
+  padding-bottom: 5rem;
+}
+
+.education-box, .other-education-box {
+  padding: 0 4rem;
+}
+
+@media (min-width: 576px) {
+  .name-box {
+    padding-top: 4rem;
+  }
+
+  .name, .surname {
+    font-size: 5.5rem;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .education-box, .other-education-box {
+    padding: 0 4rem;
+  }
+}
+
+@keyframes pulse {
+    0%   {box-shadow: 0 0 0 #f4be28;}
+    50%  {box-shadow: 0 0 2rem #f4be28;}
+    100% {box-shadow: 0 0 0 #f4be28;}
+}
